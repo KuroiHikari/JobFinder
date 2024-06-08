@@ -7,7 +7,18 @@
     "plugins": [
       "expo-router"
     ],
-    "name": "job-finder",
-    "slug": "job-finder"
+    "name": "JobFinder",
+    "slug": "JobFinder",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "090dbbbf-dd48-46f9-8641-8b9f0d8f566e"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.kuroihikari.JobFinder"
+    }
   }
 }
